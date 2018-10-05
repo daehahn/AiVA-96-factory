@@ -13,3 +13,4 @@ pip3 install pyserial
 # 단축 아이콘 복사
 sudo cp shortcuts/*.desktop /usr/share/applications/
 sudo cp shortcuts/*.desktop ~/바탕화면
+sudo chmod 755 ~/바탕화면/*.desktop
