@@ -16,5 +16,12 @@ sudo cp shortcuts/*.desktop ~/바탕화면
 sudo chmod 755 ~/바탕화면/*.desktop
 sudo cp rules/*  /etc/udev/rules.d/
 
-echo "reboot system"
-sudo shutdown -r
+while [[ -z $IsReboot ]] ; do
+    echo "Type yes, reboot then system"
+    read IsReboot
+done
+
+if [ ${IsYes,,} == "yes" ]; then
+    sudo shutdown -r
+fi
+
