@@ -6,5 +6,6 @@ Exec=bash /home/roy/workspace/AiVA-96-factory/sh/downloader.sh
 Icon=/home/roy/workspace/AiVA-96-factory/icons/downloader.png
 Path=/home/roy/workspace/AiVA-96-factory/
 Terminal=false 
-Type=Application 
+Type=Application
+StartupNotify=false
 Categories=Development
