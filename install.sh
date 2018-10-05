@@ -17,7 +17,11 @@ sudo chmod 755 ~/바탕화면/*.desktop
 sudo cp rules/*  /etc/udev/rules.d/
 
 while [[ -z $IsReboot ]] ; do
+    echo ""
+    echo ""
+    echo "====================================="
     echo "Type yes, reboot then system"
+    echo "====================================="
     read IsReboot
 done
 
