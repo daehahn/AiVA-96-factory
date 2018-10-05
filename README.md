@@ -1,10 +1,13 @@
 AiVA-96 factory tools
 ---
-installation
+
+Installation
 ```
 bash install.sh
 ```
 
+Command
+---
 * Downloader
 ```
 python3 AiVA-96-Downloader.py
