@@ -6,5 +6,6 @@ Exec=bash /home/roy/workspace/AiVA-96-factory/sh/info.sh
 Icon=/home/roy/workspace/AiVA-96-factory/icons/info.png
 Path=/home/roy/workspace/AiVA-96-factory/
 Terminal=true 
-Type=Application 
+Type=Application
+StartupNotify=false
 Categories=Development
