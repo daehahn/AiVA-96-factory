@@ -16,7 +16,7 @@ class DownloadWindow(QMainWindow):
 
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("AiVA 다운로더")
+        self.setWindowTitle("AiVA 다운로더 v1.0.0")
         self.setGeometry(300, 300, 520, 220)
 
         # Label
