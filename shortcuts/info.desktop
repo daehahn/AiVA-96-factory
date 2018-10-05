@@ -2,9 +2,9 @@
 Encoding=UTF-8
 Name=AiVA-96 디바이스 정보 
 Comment=Downloader
-Exec=bash /home/roy/workspace/AiVA-96-factory/sh/info.sh
-Icon=/home/roy/workspace/AiVA-96-factory/icons/info.png
-Path=/home/roy/workspace/AiVA-96-factory/
+Exec=bash /home/inslab/workspace/AiVA-96-factory/sh/info.sh
+Icon=/home/inslab/workspace/AiVA-96-factory/icons/info.png
+Path=/home/inslab/workspace/AiVA-96-factory/
 Terminal=true 
 Type=Application
 StartupNotify=false
