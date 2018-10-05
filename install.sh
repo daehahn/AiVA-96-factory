@@ -20,7 +20,7 @@ while [[ -z $IsReboot ]] ; do
     echo ""
     echo ""
     echo "====================================="
-    echo "Type yes, reboot then system"
+    echo "Type yes, reboot the system"
     echo "====================================="
     read IsReboot
 done
