@@ -21,7 +21,7 @@ while [[ -z $IsReboot ]] ; do
     read IsReboot
 done
 
-if [ ${IsYes,,} == "yes" ]; then
+if [ ${IsReboot,,} == "yes" ]; then
     sudo shutdown -r
 fi
 
