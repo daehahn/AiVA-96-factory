@@ -10,5 +10,6 @@ pip3 install pyusb
 pip3 install pyqt5
 pip3 install pyserial
 
+# 단축 아이콘 복사
 sudo cp shortcuts/*.desktop /usr/share/applications/
-
+sudo cp shortcuts/*.desktop ~/바탕화면
