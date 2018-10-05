@@ -8,3 +8,7 @@ pip3 install setuptools --upgrade
 pip3 install wheel
 pip3 install pyusb
 pip3 install pyqt5
+pip3 install pyserial
+
+sudo cp shortcuts/*.desktop /usr/share/applications/
+
