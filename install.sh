@@ -16,6 +16,11 @@ sudo cp shortcuts/*.desktop ~/바탕화면
 sudo chmod 755 ~/바탕화면/*.desktop
 sudo cp rules/*  /etc/udev/rules.d/
 
+echo "cd /home/roy/workspace/utils/XMOS/xTIMEcomposer/Community_14.3.1" | tee -a ~/.bashrc > /dev/null
+echo "source ./SetEnv" | tee -a ~/.bashrc > /dev/null
+echo "cd ~" | tee -a ~/.bashrc > /dev/null
+echo "PATH=$PATH:~/workspace/utils/XMOS/xTIMEcomposer/Community_14.3.1/bin" | tee -a ~/.bashrc > /dev/null
+
 while [[ -z $IsReboot ]] ; do
     echo ""
     echo ""
