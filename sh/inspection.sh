@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 AiVA-96-TestApp.py
+python3 /home/roy/workspace/AiVA-96-factory/AiVA-96-TestApp.py
