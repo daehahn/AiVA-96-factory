@@ -1,3 +1,3 @@
 # cat  /etc/udev/rules.d/92-xmos-x200.rules    
-SUBSYSTEM=="usb", ATTR{idVendor}=="20b1", ATTR{idProduct}=="f7d4", ACTION=="add", OWNER="roy", MODE="0664"
-SUBSYSTEM=="usb", ATTR{idVendor}=="20b1", ATTR{idProduct}=="0011", ACTION=="add", OWNER="roy", MODE="0664"
+SUBSYSTEM=="usb", ATTR{idVendor}=="20b1", ATTR{idProduct}=="f7d4", ACTION=="add", OWNER="inslab", MODE="0664"
+SUBSYSTEM=="usb", ATTR{idVendor}=="20b1", ATTR{idProduct}=="0011", ACTION=="add", OWNER="inslab", MODE="0664"
