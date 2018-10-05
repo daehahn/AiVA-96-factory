@@ -2,7 +2,7 @@
 Encoding=UTF-8
 Name=AiVA-96 검사 
 Comment=Downloader
-Exec=bash -c /home/roy/workspace/AiVA-96-factory/sh/inspection.sh
+Exec=bash /home/roy/workspace/AiVA-96-factory/sh/inspection.sh
 Icon=/home/roy/workspace/AiVA-96-factory/icons/inspection.png
 Path=/home/roy/workspace/AiVA-96-factory/
 Terminal=false 
