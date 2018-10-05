@@ -14,3 +14,7 @@ pip3 install pyserial
 sudo cp shortcuts/*.desktop /usr/share/applications/
 sudo cp shortcuts/*.desktop ~/바탕화면
 sudo chmod 755 ~/바탕화면/*.desktop
+sudo cp rules/*  /etc/udev/rules.d/
+
+echo "reboot system"
+sudo shutdown -r
