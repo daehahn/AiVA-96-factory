@@ -6,10 +6,16 @@ bash install.sh
 ```
 
 * Downloader
+```
 python3 AiVA-96-Downloader.py
+```
 
-* Test tool
+* Test tool  
+```
 python3 AiVA-96-TestApp.py
+```
 
-* Device info
+* Device info  
+```
 python3 AiVA-96-DeviceInfo.py
+```
