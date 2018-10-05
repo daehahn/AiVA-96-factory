@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 /home/roy/workspace/AiVA-96-factory/AiVA-96-DeviceInfo.py
+python3 ~/workspace/AiVA-96-factory/AiVA-96-DeviceInfo.py
