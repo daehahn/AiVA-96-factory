@@ -18,7 +18,7 @@ class DownloadWindow(QMainWindow):
 
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("AiVA-96 테스트 프로그램")
+        self.setWindowTitle("AiVA-96 테스트 프로그램 v1.0.0")
         self.setGeometry(300, 300, 290, 320)
 
         self.editTestUart = QLineEdit("", self)
